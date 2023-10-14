@@ -1,0 +1,15 @@
+# Ignore all files
+*
+
+# But don't ignore directories
+!*/
+
+# Un-ignore .py files
+!*.py
+
+# Ignore sensitive files
+/venv
+/data
+/apis
+/global_code
+
